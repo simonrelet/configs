@@ -8,7 +8,16 @@ function fish_prompt --description 'Write out the prompt'
 
   # PWD
   set_color $fish_color_cwd
-	printf ":%s" (prompt_pwd)
+	printf ":"
+
+	set -l dir (dirname (prompt_pwd))
+	if [ $dir != "." ]
+		printf "%s/" $dir
+	end
+	set_color normal
+
+	set_color $prompt_color_current_folder
+	printf "%s" (basename (prompt_pwd))
   set_color normal
 
 	basic_git_prompt
