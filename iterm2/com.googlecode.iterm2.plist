@@ -85,7 +85,7 @@
 	<key>NSColorPanelMode</key>
 	<string>6</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Configurations/iterm2</string>
+	<string>~/repos/github/configs/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -175,13 +175,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.033791549503803253</real>
+				<real>0.028312612324953079</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.99870508909225464</real>
 				<key>Red Component</key>
-				<real>0.64078527688980103</real>
+				<real>0.38683366775512695</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
@@ -250,12 +250,16 @@
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
-				<key>Blue Component</key>
-				<real>0.40000000596046448</real>
-				<key>Green Component</key>
+				<key>Alpha Component</key>
 				<real>1</real>
+				<key>Blue Component</key>
+				<real>0.36681979894638062</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
+				<key>Green Component</key>
+				<real>0.99146276712417603</real>
 				<key>Red Component</key>
-				<real>0.80000001192092896</real>
+				<real>0.62892568111419678</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
