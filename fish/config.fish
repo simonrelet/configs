@@ -26,7 +26,7 @@ if status --is-login
   set fish_color_redirection normal
   set fish_color_search_match --background=purple
   set fish_color_status red
-  set fish_color_user white
+  set fish_color_user normal
   set fish_color_valid_path --underline
   set fish_pager_color_completion normal
   set fish_pager_color_description '555' 'yellow'
@@ -35,10 +35,10 @@ if status --is-login
 
   # Colors for prompt
   set prompt_color_arrow '-o' 'black'
-  set prompt_color_current_folder green
+  set prompt_color_current_folder normal
 
   # Colors for git prompt
   set git_prompt_color_separator '-o' 'black'
-  set git_prompt_color_branch green
+  set git_prompt_color_branch blue
   set git_prompt_color_commit '-o' 'black'
 end
