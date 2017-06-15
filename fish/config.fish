@@ -39,6 +39,6 @@ if status --is-login
 
   # Colors for git prompt
   set git_prompt_color_separator '-o' 'black'
-  set git_prompt_color_branch blue
+  set git_prompt_color_branch normal
   set git_prompt_color_commit '-o' 'black'
 end
