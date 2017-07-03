@@ -27,6 +27,7 @@ if status --is-login
   set fish_color_search_match --background=purple
   set fish_color_status red
   set fish_color_user normal
+  set fish_color_user_root yellow
   set fish_color_valid_path --underline
   set fish_pager_color_completion normal
   set fish_pager_color_description '555' 'yellow'
