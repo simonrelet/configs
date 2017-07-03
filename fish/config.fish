@@ -2,7 +2,7 @@ if status --is-login
   set HOSTSIZE 1000
   set PAGER more
   set SAVEHIST 1000
-  set PATH $HOME/bin $PATH
+  set -x PATH $HOME/bin $PATH
 
   # Remove greeting message
   set fish_greeting
