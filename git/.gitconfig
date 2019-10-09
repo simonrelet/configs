@@ -1,0 +1,20 @@
+[user]
+	email = ???
+	name = ???
+
+[core]
+	editor = code --wait
+	whitespace = -trailing-space
+
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+[merge]
+	# Display common-ancestor blocks in conflict hunks
+	conflictStyle = diff3
+
+[push]
+	# Default push should only push the current branch to its push target, regardless of its remote name
+	default = upstream
+	# When pushing, also push tags whose commit-ishs are now reachable upstream
+	followTags = true
