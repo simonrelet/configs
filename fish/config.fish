@@ -42,4 +42,6 @@ if status --is-login
   set git_prompt_color_separator '-o' 'black'
   set git_prompt_color_branch normal
   set git_prompt_color_commit '-o' 'black'
+
+  ssh-add -K ~/.ssh/id_rsa
 end
